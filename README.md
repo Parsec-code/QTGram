@@ -1,2 +1,2 @@
 # QTGram
-Russian grammar lerning desktop app
+A desktop app for learning Russian grammar
