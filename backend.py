@@ -84,4 +84,3 @@ def stat():
     cur.close()
     conn.close()
     return res
-
