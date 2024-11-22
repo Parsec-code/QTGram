@@ -1,5 +1,4 @@
 import requests
-from PyQt6 import uic
 from PyQt6.QtWidgets import *
 import sys
 import backend

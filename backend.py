@@ -2,9 +2,6 @@ import sqlite3
 from hashlib import sha256
 from New_except import *
 import random
-import http.client
-import ssl
-import json
 
 
 def reg(lo, pa):
@@ -46,7 +43,6 @@ def log(lo, pa):
 
 
 def set_word():
-    # Требует оптимизации и создании статичного списка
     with open('russian.txt', 'r', encoding='utf-8') as f:
         lines = f.readlines()
         res = random.choice(lines)
