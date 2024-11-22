@@ -19,7 +19,8 @@ class Ui_Authorization(object):
         self.formLayout = QtWidgets.QFormLayout(self.formLayoutWidget)
         self.formLayout.setLabelAlignment(QtCore.Qt.AlignmentFlag.AlignCenter)
         self.formLayout.setFormAlignment(
-            QtCore.Qt.AlignmentFlag.AlignRight | QtCore.Qt.AlignmentFlag.AlignTop | QtCore.Qt.AlignmentFlag.AlignTrailing)
+            QtCore.Qt.AlignmentFlag.AlignRight |
+            QtCore.Qt.AlignmentFlag.AlignTop | QtCore.Qt.AlignmentFlag.AlignTrailing)
         self.formLayout.setObjectName("formLayout")
         self.label_3 = QtWidgets.QLabel(parent=self.formLayoutWidget)
         sizePolicy = QtWidgets.QSizePolicy(QtWidgets.QSizePolicy.Policy.Preferred,
@@ -58,7 +59,8 @@ class Ui_Authorization(object):
         self.label.setFont(font)
         self.label.setStyleSheet("color: rgb(239, 239, 239)")
         self.label.setAlignment(
-            QtCore.Qt.AlignmentFlag.AlignBottom | QtCore.Qt.AlignmentFlag.AlignLeading | QtCore.Qt.AlignmentFlag.AlignLeft)
+            QtCore.Qt.AlignmentFlag.AlignBottom |
+            QtCore.Qt.AlignmentFlag.AlignLeading | QtCore.Qt.AlignmentFlag.AlignLeft)
         self.label.setObjectName("label")
         self.formLayout.setWidget(1, QtWidgets.QFormLayout.ItemRole.LabelRole, self.label)
         self.label_2 = QtWidgets.QLabel(parent=self.formLayoutWidget)
@@ -68,7 +70,8 @@ class Ui_Authorization(object):
         self.label_2.setFont(font)
         self.label_2.setStyleSheet("color: rgb(239, 239, 239)")
         self.label_2.setAlignment(
-            QtCore.Qt.AlignmentFlag.AlignBottom | QtCore.Qt.AlignmentFlag.AlignLeading | QtCore.Qt.AlignmentFlag.AlignLeft)
+            QtCore.Qt.AlignmentFlag.AlignBottom |
+            QtCore.Qt.AlignmentFlag.AlignLeading | QtCore.Qt.AlignmentFlag.AlignLeft)
         self.label_2.setObjectName("label_2")
         self.formLayout.setWidget(3, QtWidgets.QFormLayout.ItemRole.LabelRole, self.label_2)
         self.Password = QtWidgets.QLineEdit(parent=self.formLayoutWidget)

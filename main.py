@@ -6,7 +6,6 @@ import os.path
 import sqlite3
 from frontQT import *
 
-
 if not os.path.isfile('russian.txt'):
     response = requests.get('https://raw.githubusercontent.com/danakt/russian-words/master/russian.txt')
 
@@ -59,4 +58,3 @@ if __name__ == '__main__':
     sys.excepthook = except_hook
     w.show()
     sys.exit(app.exec())
-

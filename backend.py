@@ -58,7 +58,6 @@ def initialize(user_id):
     conn = sqlite3.connect('db.sqlite', check_same_thread=False)
     cur = conn.cursor()
     res = cur.execute("SELECT score FROM stats WHERE user_id=?", (user_id,)).fetchone()[0]
-    user = cur.fetchone()
     cur.close()
     conn.close()
     return res

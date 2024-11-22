@@ -28,7 +28,7 @@ class Menu(QMainWindow):
 
     def show_sup(self):
         self.ui.label.setText('<a style="color:MediumPurple;" href="https://yoomoney.ru/transfer/a2w"> Юмани</a>: '
-                           '4100118897844920')
+                              '4100118897844920')
         self.ui.label.setOpenExternalLinks(True)
 
 
