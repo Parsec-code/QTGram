@@ -1,4 +1,4 @@
-from PyQt6 import uic, QtGui
+from PyQt6 import QtGui
 from PyQt6 import QtCore
 from PyQt6.QtWidgets import *
 from PyQt6.QtSql import QSqlDatabase, QSqlTableModel, QSqlQueryModel
